@@ -6,6 +6,14 @@ Source of dataset: http://academictorrents.com/details/1938b67c7db77f878a56256e9
 Background:
 I'm in urban planning with a particular interest in traffic/mass transit so I chose some data from the Massachusetts Department of Transportation. It comes with a lot of CSV data from weather reports, cars and to number of train passengers. As this is a learning process, I included a list of problems and solutions used in the readme.
 
+Files included:
+Chart image
+https://github.com/ehlexlee/Massachusetts-Train-Passengers-and-Weather-Analysis/blob/master/Chart.png
+CSV to SQL import code
+https://github.com/ehlexlee/Massachusetts-Train-Passengers-and-Weather-Analysis/blob/master/csvimport.py
+Chart plot code
+https://github.com/ehlexlee/Massachusetts-Train-Passengers-and-Weather-Analysis/blob/master/plotline.py
+
 Part 1-Database entry
 So I began analysing the dataset to figure out what I wanted to find.
 It was a huge dataset so i chose to compare just the weather data and train passenger numbers to see if there is any correlation between the two.
@@ -47,10 +55,4 @@ Solution:
 5-The data range was set to just show data for the months of Jan and Feb. 2011 was not a leap year hence 28 days.
 6-Rotate the dates 90 deg so that they are more compact and show well. Finally I adjusted the label size to 7 so it is easily readable.
 
-Files included:
-Chart image
-https://github.com/ehlexlee/Massachusetts-Train-Passengers-and-Weather-Analysis/blob/master/Chart.png
-CSV to SQL import code
-https://github.com/ehlexlee/Massachusetts-Train-Passengers-and-Weather-Analysis/blob/master/csvimport.py
-Chart plot code
-https://github.com/ehlexlee/Massachusetts-Train-Passengers-and-Weather-Analysis/blob/master/plotline.py
+
